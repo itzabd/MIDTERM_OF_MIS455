@@ -1,0 +1,140 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #C4E1F6;
+}
+
+header {
+    
+    text-align: center;
+    padding: 10px;
+    background-color: #FFBD73;
+}
+
+nav ul {
+    background-color:#FFBD73 ;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    border-radius: 25px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #C4E1F6;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.contact-form, .office-location {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2, .office-location h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contact-form label, .contact-form input, .contact-form textarea, .office-location p {
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #FDE49E;
+    color: black;
+    border: 333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #FFC55A;
+}
+
+.office-location p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.cart {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.cart a {
+    text-decoration: none;
+    color: #3d2f1e;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.cart a:hover {
+    color: #000000;
+}
+
+.cart i {
+    margin-right: 5px;
+}
+footer {
+    background-color: #FDE49E;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.footer-social {
+    margin-top: 10px;
+}
+
+.footer-social a {
+    color: #333;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    color: #FFBD73; 
+}
