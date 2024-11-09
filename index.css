@@ -1,0 +1,176 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #C4E1F6;
+}
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+nav ul {
+    background-color:#FFBD73 ;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    border-radius: 25px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #C4E1F6;
+    
+}
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #FFBD73;
+}
+
+
+.home-content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section-image {
+
+    max-width: 100%;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+.about-us, .brandtrusted,.deliverty-partner,.From-to, .our-success,.Product {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.cart {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.cart a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.cart a:hover {
+    color: #C4E1F6;
+;
+}
+
+.cart i {
+    margin-right: 5px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product-card p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.product-details p {
+    font-size: 14px;
+    color: #555;
+    margin: 15px 0;
+}
+
+.product-details p strong {
+    color: #333;
+    font-weight: bold;
+}
+.product-buttons {
+    display: flex;
+    justify-content: center; 
+    gap: 10px; 
+}
+
+.add-to-cart, .buy-now {
+    background-color: #FDE49E;
+    border-color: #333;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.add-to-cart:hover, .buy-now:hover {
+    background-color: #FFC55A;
+}
+footer {
+    background-color: #FDE49E;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer-info p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.footer-social {
+    margin-top: 10px;
+}
+
+.footer-social a {
+    color: #333;
+    font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.footer-social a:hover {
+    color: #FFBD73; 
+}
